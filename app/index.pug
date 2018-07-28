@@ -2,47 +2,47 @@ doctype html
 html( lang="en" )
 head
     meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
     title Document
     link( rel="stylesheet" href="css/libs.min.css")
+    link( rel="stylesheet" href="css/owl.carousel.min.css")
+    link( rel="stylesheet" href="css/lightslider.css")
     link( rel="stylesheet" href="css/main.css")
 body
-
-    .first
+    section.first#top
         .container
-            .row
-                .col-3
+            header.row.header
+                .col-6.col-lg-3
                     .logo-wrap
                         .logo
                         .logo-text-wrap
                             p.logo-text Потеплеет
                             p.logo-second-text Монтаж систем обогрева
-
-
-
-
-                .col-7.p-0
+                .menu-btn
+                    .menu-btn__line
+                .col-7.p-0.header__menu
                     nav.menu
                         ul.menu__list
-                            li.menu__item
-                                a.menu__link(href="#") Главная
-                            li.menu__item
-                                a.menu__link.active(href="#") Услуги
-                            li.menu__item
+                            li.menu__item.scroll
+                                a.menu__link(href="#top") Главная
+                            li.menu__item.scroll
+                                a.menu__link.active(href="#systems") Услуги
+                            li.menu__item.scroll
                                 a.menu__link(href="#") О компании
-                            li.menu__item
+                            li.menu__item.scroll
                                 a.menu__link(href="#") Каталог оборудования
-                            li.menu__item.menu__item_brd-0
+                            li.menu__item.menu__item_brd-0.scroll
                                 a.menu__link(href="#") Доставка
-                            li.menu__item.menu__item_brd-0
-                                a.menu__link(href="#") Контакты
-
-                .col-2
+                            li.menu__item.menu__item_brd-0.scroll
+                                a.menu__link(href="#map") Контакты
+                .col-2.header__contacts
                     .tel
                         span.tel__title Москва
-                        a(href="#").tel__link 8 (495) 215-14-22
+                        a(href="tel:+84952151422").tel__link 8 (495) 215-14-22
                     .tel
                         span.tel__title по Росии бесплатно
-                        a(href="#").tel__link 8 (800) 500-75-51
+                        a(href="tel:+88005007551").tel__link 8 (800) 500-75-51
+
             .row
                 .col-12
                     nav.menu.menu--sub
@@ -52,7 +52,7 @@ body
                                     ОБОГРЕВ ЖЕЛОБОВ И ВОДОСТОКОВ
                             li.menu__item
                                 a.menu__link(href="#").
-                                    ОБОГРЕВ трубопроводов
+                                    ОБОГРЕВ трубопРОводов
                             li.menu__item
                                 a.menu__link(href="#").
                                     ОБОГРЕВ открытых площадок
@@ -66,4 +66,630 @@ body
                                 a.menu__link(href="#").
                                     монтаж кабеля
 
+            .row.first-body
+                .col-lg-7
+                    h1.h1
+                        .text-bg Обогрев кровли
+                        .text-bg и водостоков
+                    h2.h2
+                        .text-bg Закажите монтаж системы обогрева и получите в подарок
+                        .text-bg.text-bg2 1 год бесплатного сервисного обслуживания!
+                    .row.col-md-6.col-lg-12
+                        .col-6.col-md-12.col-lg-6
+                            .row.circle-wrap
+                                .col-6
+                                    .circle -20
+                                .col-6.pl-0
+                                    p.circle-text Цены ниже рыночных на 20%
+                        .col-6.col-md-12.col-lg-6
+                            .row.circle-wrap
+                                .col-6
+                                    .circle.circle--za.circle--ot
+                                        | 100
+                                        .small тыс.₽
+                                .col-6.pl-0
+                                    p.circle-text Занимаемся объектами от 100 000 ₽
+                        .col-6.col-md-12.col-lg-6
+                            .row.circle-wrap
+                                .col-6
+                                    .circle.circle--za
+                                        | 24
+                                        .small часа
+                                .col-6.pl-0
+                                    p.circle-text Расчет стоимости за 24 часа
+                        .col-6.col-md-12.col-lg-6
+                            .row.circle-wrap
+                                .col-6
+                                    .circle.circle-icon-partner
+
+                                .col-6.pl-0
+                                    p.circle-text Работаем напрямую с производителем
+                .col-8.col-md-6.col-lg-5.position-static
+                    form.main-form#form1
+                        p.form__title Оставьте заявку на расчет
+                        .form-group
+                            label(for="input1").form-label Имя
+                            input(type="text" name="name")#input1.form-input.main-input
+                        .form-group
+                            label(for="input2").form-label
+                                |Телефон
+                                span *
+                            input(type="text" name="phone" required)#input2.form-input.main-input
+                        .form-group
+                            label(for="input3").form-label Почта
+                            input(type="text" name="email")#input3.form-input.main-input
+                        .form-group
+                            label(for="input4").form-label
+                                | Площадь М
+                                sup 2
+                            input(type="text" name="s")#input4.form-input.main-input
+                        p.form-text
+                            span *
+                            | - обязательное поле
+                        button.btn Отправить
+
+                .row.first-footer
+                    .col-sm-4.col-md-3.position-static.order-lg-0.order-sm-1
+                        img(src="img/home.png").first-footer__img
+                    .col-md-9
+                        .h1
+                            .text-bg.text-bg1 Мы профессионалы в сфере
+                            .text-bg кабельного обогрева!
+                        p.text.
+                            Решить проблему обогрева кровли
+                            быстро, эффективно и надолго? Легко!
+                        h2.h2
+                            .text-bg Обратитесь в «Потеплеет». Смонтируем систему за несколько дней
+                            .text-bg.text-bg2 – и она будет гарантированно работать годами.
+    section.systems#systems
+        .container
+            h3.h3.
+                Установим правильную систему
+                обогрева
+            ul.row.list-unstyled
+                li.col-md-6.col-lg-4.system-item
+                    img(src="img/system_img1.png").img
+                    .system-item-text-wrap
+                        p.title В загородном доме
+                        p.text.
+                            Ваша кровля будет как новая
+                            и прослужит вам более 30 лет.
+                        a(href="#").btn Сохранить дом
+                li.col-md-6.col-lg-4.system-item
+                    img(src="img/system_img1.png").img
+                    .system-item-text-wrap
+                        p.title.
+                                В коммерческой
+                                недвижимости
+                        p.text.
+                            Снижение расходов на эксплуатацию.
+                        a(href="#").btn Начать экономить
+                li.col-md-6.col-lg-4.system-item.system-item_big
+                    img(src="img/system_img1.png").img
+                    .system-item-text-wrap
+                        p.title На промышленных объектах
+                        p.text.
+                            Уменьшение рисков обрушения
+                            и протечек на кровле.
+
+                        a(href="#").btn Снизить риск
+    section.consult
+            .container
+                .row
+                    .col-md-6
+                        h3.h3.
+                            Установим правильную систему
+                            обогрева
+                        p.
+                            Консультация опытного специалиста поможет
+                            вам выбрать решение и не ошибиться в самом начале!
+                        .row.systems-man-wrap
+                            .col-4
+                                .systems-man
+                                    img(src="img/man.png")
+                            .col-8.pl-0
+                                p.systems-man-title Максимов Андрей Генадьевич
+                                p.systems-man-title2 Инженер по системам кабельного обогрева.
+                                .row
+                                    .col-6.col-md-5
+                                        .about-man
+                                            span 10
+                                            | лет
+                                            div Опыт работы
+                                    .offset-md-1.col-6.px-0
+                                        .about-man
+                                            | более
+                                            span 650
+                                            div Выполненных объектов
+                                p.man-help-text.d-none.d-md-block Заполните форму и специалист свяжется с вами
+                    .col-8.offset-md-1.col-md-5
+                        form.main-form#form2
+                            p.form__title Оставьте заявку на Бесплатную консультацию
+                            .form-group
+                                label(for="input5").form-label Имя
+                                input(type="text" name="name")#input5.form-input.main-input
+                            .form-group
+                                label(for="input6").form-label
+                                    | Телефон
+                                    span *
+                                input(type="text" name="phone" required)#input6.form-input.main-input
+                            .form-group
+                                label(for="input7").form-label Почта
+                                input(type="text" name="email")#input7.form-input.main-input
+                            label.main-input-label Удобное время
+                                input(type="text" name="time" placeholder="14:00").main-input.main-input-time
+                            p.form-text
+                                span *
+                                | - обязательное поле
+                            button.btn Заказать консультацию
+                    .col-4
+                        p.man-help-text.d-block.d-md-none Заполните форму и специалист свяжется с вами
+    section.projects-today
+        .container
+            p.projects-today-text
+                | сейчас в работе
+                span.text-bg-wrap
+                    span.text-bg 2
+                    span.text-bg 3
+                | проекта
+    section.fast-decision
+        .container
+            h3.h3.
+                Быстро решим проблему
+                обледенения кровли
+            .row
+                .col-md-4.fast-item
+                    .fast-icon.fast-icon_1
+                    .fast-text-wrap
+                        p.title Профессионалы в деле.
+                        p.text.
+                            Берем на работу сотрудников
+                            со стажем от 5 лет и профильным
+                            образованием.
+                .col-md-4.fast-item
+                    .fast-icon.fast-icon_2
+                    .fast-text-wrap
+                        p.title 20 лет гарантии
+                        p.text.
+                            Предоставляем такую
+                            гарантию потому что уверены
+                            в своей работе.
+                .col-md-4.fast-item
+                    .fast-icon.fast-icon_3
+                    .fast-text-wrap
+                        p.title Сохраним кровлю
+                        p.text.
+                            Сохраним целостность
+                            конструкции.
+    section.sliders
+        .container
+            h3.h3.
+                Посмотрите, как мы работаем
+
+            .slider1.owl-carousel.owl-theme.main-sliders
+                .item
+                    .row
+                        .col-xl-5.order-1.order-xl-0.pr-0
+                            .main-sliders_list
+                                .slider1__title-wrap
+                                    p.slider1__title.
+                                        Коттедж в Барвихе Московская
+                                        область одинцовский район
+                                .main-sliders_list-item
+                                    p.main-sliders_list--title Задача:
+                                    p.main-sliders_list--text Обогрев кровли и водостоков
+                                .main-sliders_list-item
+                                    p.main-sliders_list--title Оборудование:
+                                    p.main-sliders_list--text Кабель ycpro 321321
+                                .main-sliders_list-item
+                                    p.main-sliders_list--title Срок:
+                                    p.main-sliders_list--text 3 дня
+                        .col-xl-7.pl-0
+                            ul.image-gallery.gallery.list-unstyled.cS-hidden
+                                li(data-thumb="img/house.png")
+                                    img(src="img/house.png")
+                                li(data-thumb="img/house.png")
+                                    img(src="img/house.png")
+                                li(data-thumb="img/house.png")
+                                    img(src="img/house.png")
+                                li(data-thumb="img/house.png")
+                                    img(src="img/house.png")
+                .item
+                    .row
+                        .col-xl-5.order-1.order-xl-0.pr-0
+                            .main-sliders_list
+                                .slider1__title-wrap
+                                    p.slider1__title.
+                                        Коттедж в Барвихе Московская
+                                        область одинцовский район
+                                .main-sliders_list-item
+                                    p.main-sliders_list--title Задача:
+                                    p.main-sliders_list--text Обогрев кровли и водостоков
+                                .main-sliders_list-item
+                                    p.main-sliders_list--title Оборудование:
+                                    p.main-sliders_list--text Кабель ycpro 321321
+                                .main-sliders_list-item
+                                    p.main-sliders_list--title Срок:
+                                    p.main-sliders_list--text 3 дня
+                        .col-xl-7.pl-0
+                            ul.image-gallery.gallery.list-unstyled.cS-hidden
+                                li(data-thumb="img/house.png")
+                                    img(src="img/house.png")
+                                li(data-thumb="img/house.png")
+                                    img(src="img/house.png")
+                                li(data-thumb="img/house.png")
+                                    img(src="img/house.png")
+                                li(data-thumb="img/house.png")
+                                    img(src="img/house.png")
+                .item
+                    .row
+                        .col-xl-5.order-1.order-xl-0.pr-0
+                            .main-sliders_list
+                                .slider1__title-wrap
+                                    p.slider1__title.
+                                        Коттедж в Барвихе Московская
+                                        область одинцовский район
+                                .main-sliders_list-item
+                                    p.main-sliders_list--title Задача:
+                                    p.main-sliders_list--text Обогрев кровли и водостоков
+                                .main-sliders_list-item
+                                    p.main-sliders_list--title Оборудование:
+                                    p.main-sliders_list--text Кабель ycpro 321321
+                                .main-sliders_list-item
+                                    p.main-sliders_list--title Срок:
+                                    p.main-sliders_list--text 3 дня
+                        .col-xl-7.pl-0
+                            ul.image-gallery.gallery.list-unstyled.cS-hidden
+                                li(data-thumb="img/house.png")
+                                    img(src="img/house.png")
+                                li(data-thumb="img/house.png")
+                                    img(src="img/house.png")
+                                li(data-thumb="img/house.png")
+                                    img(src="img/house.png")
+                                li(data-thumb="img/house.png")
+                                    img(src="img/house.png")
+    section.cost
+        .container
+            h3.h3.
+                Стоимость работы
+            .main-table
+                .row.row-head
+                    .col-4.col-md-5
+                        p Тип объекта
+                    .col-8.col-md-7
+                        .row
+                            .col-4
+                                p Эконом
+                            .col-4
+                                p Стандарт
+                            .col-4
+                                p Премиум
+                .row.row-line
+                    .col-4.col-md-5
+                        p Коттедж s
+                    .col-8.col-md-7
+                        .row
+                            .col-4
+                                p
+                                    span до
+                                    | 250 000 ₽
+                            .col-4
+                                p
+                                    span до
+                                    | 400 000 ₽
+                            .col-4
+                                p
+                                    span до
+                                    | 400 000 ₽
+
+
+                .row.row-line
+                    .col-4.col-md-5
+                        p Коммерческая недвижимость
+                    .col-8.col-md-7
+                        .row
+                            .col-4
+                                p
+                                    span до
+                                    | 250 000 ₽
+                            .col-4
+                                p
+                                    span до
+                                    | 400 000 ₽
+                            .col-4
+                                p
+                                    span до
+                                    | 400 000 ₽
+
+                .row.row-line
+                    .col-4.col-md-5
+                        p Заводы
+                    .col-8.col-md-7
+                        .row
+                            .col-4
+                                p
+                                    span до
+                                    | 600 000 ₽
+                            .col-4
+                                p
+                                    span до
+                                    | 1 500 000 ₽
+                            .col-4
+                                p
+                                    span до
+                                    | 1 500 000 ₽
+    section.sale
+        .container
+            .row
+                .col-md-6
+                    h3.h3.
+                        Закажите Расчет Стоимости
+                        и подбор комплектующих
+                        со скидкой 5%
+                    .sale-count
+                .col-8.offset-md-1.col-md-5
+                    form.main-form#form3
+                        p.form__title Оставьте заявку на Бесплатную консультацию
+                        .form-group
+                            label(for="input8").form-label Имя
+                            input(type="text" name="name")#input8.form-input.main-input
+                        .form-group
+                            label(for="input6").form-label
+                                | Телефон
+                                span *
+                            input(type="text" name="phone" required)#input9.form-input.main-input
+                        .form-group
+                            label(for="input7").form-label Почта
+                            input(type="text" name="email")#input10.form-input.main-input
+                        label.main-input-label Удобное время
+                            input(type="text" name="time" placeholder="14:00").main-input.main-input-time
+                        p.form-text
+                            span *
+                            | - обязательное поле
+                        button.btn Заказать консультацию
+    section.client-say
+        .container
+            h3.h3.
+                А что говорят клиенты?
+            p.text-title Послушайте отзывы заказчиков
+
+            .row
+                .col-6
+                    iframe(src="https://www.youtube.com/embed/lVP6wXD_wms?showinfo=0").client-say__video
+                .col-6
+                    iframe(src="https://www.youtube.com/embed/lVP6wXD_wms?showinfo=0").client-say__video
+    section.partners
+        .container
+            h3.h3.
+                Наши постовщики
+            .slider2.main-sliders.owl-carousel.owl-theme
+                .item
+                    img(src="img/partner_img1.png")
+                .item
+                     img(src="img/partner_img2.jpg")
+                .item
+                     img(src="img/partner_img3.jpg")
+                .item
+                     img(src="img/partner_img4.jpg")
+                .item
+                     img(src="img/partner_img5.jpg")
+    section.staff
+        .container
+            h3.h3.
+                Наша команда
+            .row.staff-row
+                .col-6.col-lg-2
+                    .staff__img-wrap
+                        img(src="img/man.png").w-100
+                    p.systems-man-title Михаил Степанович
+                    p.systems-man-title2 Менеджер
+                .col-6.col-lg-2
+                    .staff__img-wrap
+                        img(src="img/man.png").w-100
+                    p.systems-man-title Михаил Степанович
+                    p.systems-man-title2 Менеджер
+                .col-6.col-lg-2
+                    .staff__img-wrap
+                        img(src="img/man.png").w-100
+                    p.systems-man-title Михаил Степанович
+                    p.systems-man-title2 Менеджер
+                .col-6.col-lg-2
+                    .staff__img-wrap
+                        img(src="img/man.png").w-100
+                    p.systems-man-title Михаил Степанович
+                    p.systems-man-title2 Менеджер
+                .col-6.col-lg-2
+                    .staff__img-wrap
+                        img(src="img/man.png").w-100
+                    p.systems-man-title Михаил Степанович
+                    p.systems-man-title2 Менеджер
+    section.reasons
+        .container
+            .row.d-block.d-md-none
+                .col-12
+                    h3.h3.pt-sm-4.
+                        Даем вам 3 повода заказать
+                        обогрев у нас и сэкономить
+                        деньги!
+            .row
+                .col-7.col-md-5
+                    form.main-form#form4
+                        p.form__title Закажите замеры кровли
+                        p.form__title_small.
+                            Заполните форму что бы вызвать специалиста Потеплеет
+                        .form-group
+                            label(for="input11").form-label Имя
+                            input(type="text" name="name")#input11.form-input.main-input
+                        .form-group
+                            label(for="input12").form-label
+                                | Телефон
+                                span *
+                            input(type="text" name="phone" required)#input12.form-input.main-input
+                        .form-group
+                            label(for="input13").form-label Почта
+                            input(type="text" name="email")#input13.form-input.main-input
+                        p.form-text
+                            span *
+                            | - обязательное поле
+                        button.btn Вызвать замерщика
+                .col-5.col-md-7.pl-5
+                    h3.h3.pt-sm-4.d-none.d-md-block.
+                        Даем вам 3 повода заказать
+                        обогрев у нас и сэкономить
+                        деньги!
+                    .row.reasons-items
+                        .col-md-4
+                            .reasons-icon.reasons-icon_1
+                            p.title Бесплатный выезд замерщика
+                        .col-md-4.fast-item
+                            .reasons-icon.reasons-icon_2
+                            p.title Цены ниже на 20 процентов рыночных
+                        .col-md-5.col-lg-4.fast-item
+                            .reasons-icon.reasons-icon_3
+                            p.title Регулярные акции и спецпредложения
+    .map#map
+        iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d965287.6465275345!2d38.3152792789641!3d55.809821026306814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41270a51b7b50e91%3A0xb0de99238bea4aac!2z0KXQsNGA0YzQutC-0LIg0JPQtdC90LjRh9C10YHQug!5e0!3m2!1sru!2sua!4v1532776943329" allowfullscreen)
+    footer.footer
+        .container
+            .row
+                .col-8
+                    p.footer-title.
+                        © 1999—2018  Обогрев кровли и водостоков.
+                    p.footer-title2.
+                        Пользуясь этим сайтом вы соглашаетесь с политикой конфиденсальности
+                .col-4
+                    a(href="tel:+84952151422").footer-tel 8(495) 215-14-22
+                    a(href="mailto:info@potepleet.ru").footer-mail info@potepleet.ru
     script( src="js/libs.min.js" )
+    script(src="js/owl.carousel.js")
+    script(src="js/lightslider.js")
+    script.
+            $(document).ready(function() {
+
+                $(".menu-btn").click(function(){
+                    $(".header").toggleClass("active");
+                })
+
+                var owl = $('.slider1');
+                owl.owlCarousel({
+                    margin: 10,
+                    nav: true,
+                    loop: true,
+                    responsive: {
+                    0: {
+                        items: 1
+                    },
+                    768: {
+                        items: 1
+                    }
+                    }
+                });
+                var owl2 = $('.slider2');
+                owl2.owlCarousel({
+                    margin: 10,
+                    nav: true,
+                    loop: true,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        470: {
+                            items: 3
+                        },
+                        768: {
+                            items: 4
+                        },
+                        1100: {
+                            items: 5
+                        }
+                    }
+                });
+                $(".content-slider").lightSlider({
+                    loop: true,
+                    keyPress: true
+                });
+                $('.image-gallery').lightSlider({
+                    gallery: true,
+                    item: 1,
+                    thumbItem: 9,
+                    slideMargin: 0,
+                    speed: 500,
+                    auto: true,
+                    loop: true,
+                    onSliderLoad: function () {
+                        $('.image-gallery').removeClass('cS-hidden');
+                    }
+                });
+
+                $(".scroll").on("click", "a", function(i) {
+                i.preventDefault();
+                    var e = $(this).attr("href"),
+                    t = $(e).offset().top;
+                $("body,html").animate({
+                scrollTop: t
+                }, 1500)
+                })
+                $('input').focus(function(){
+                $(this).parents('.form-group').addClass('focused');
+                });
+
+                $('input').blur(function(){
+                    var inputValue = $(this).val();
+                    if ( inputValue == "" ) {
+                        $(this).removeClass('filled');
+                $(this).parents('.form-group').removeClass('focused');
+                } else {
+                $(this).addClass('filled');
+                }
+                })
+
+                $("#form1").submit(function () {
+                    $.ajax({
+                        type: "POST",
+                        url: "mail.php",
+                        data: $(this).serialize()
+                    }).done(function () {
+                        $(this).find("input").val("");
+                        $("#form1").trigger("reset");
+                        alert("Данные отправленны!");
+                    });
+                    return false;
+                });
+                $("#form2").submit(function () {
+                    $.ajax({
+                        type: "POST",
+                        url: "mail.php",
+                        data: $(this).serialize()
+                    }).done(function () {
+                        $(this).find("input").val("");
+                        $("#form2").trigger("reset");
+                        alert("Данные отправленны!");
+                    });
+                    return false;
+                });
+                $("#form3").submit(function () {
+                    $.ajax({
+                        type: "POST",
+                        url: "mail.php",
+                        data: $(this).serialize()
+                    }).done(function () {
+                        $(this).find("input").val("");
+                        $("#form3").trigger("reset");
+                        alert("Данные отправленны!");
+                    });
+                    return false;
+                });
+                $("#form4").submit(function () {
+                    $.ajax({
+                        type: "POST",
+                        url: "mail.php",
+                        data: $(this).serialize()
+                    }).done(function () {
+                        $(this).find("input").val("");
+                        $("#form4").trigger("reset");
+                        alert("Данные отправленны!");
+                    });
+                    return false;
+                });
+            });
+

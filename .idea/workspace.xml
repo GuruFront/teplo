@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="17eec43f-0602-438a-9509-f4e2d7fe74b7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Black.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Black.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-BlackItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-BlackItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-BoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-BoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Heavy.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Heavy.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Heavy.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-HeavyItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-HeavyItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-HeavyItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-LightItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-LightItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-MediumItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-MediumItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Roman.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Roman.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Roman.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Thin.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-Thin.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-ThinItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-ThinItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-UltraLight.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-UltraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-UltraLight.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-UltraLightItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-UltraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/HelveticaNeueCyr-UltraLightItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.pug" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/index.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="515" column="40" selection-start-line="515" selection-start-column="35" selection-end-line="515" selection-end-column="40" />
+              <folding>
+                <element signature="n#section#1;n#body#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#section#5;n#body#0;n#!!top" />
+                <element signature="n#div#0;n#img#0;n#li#1;n#ul#0;n#body#0;n#!!top" />
+                <element signature="n#section#8;n#body#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scss/_style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="1294" column="14" selection-start-line="1294" selection-start-column="14" selection-end-line="1294" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scss/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ast-item</find>
+      <find>rea</find>
+      <find>system-item</find>
+      <find>.consult</find>
+      <find>text-bg</find>
+      <find>first-footer</find>
+      <find>first-f</find>
+      <find>.main-form</find>
+      <find>.main-sliders_bg</find>
+      <find>.owl-nav</find>
+      <find>owl-nav</find>
+      <find>Наша команда</find>
+      <find>slider</find>
+      <find>owl</find>
+      <find>dt</find>
+      <find>dd</find>
+      <find>main-sliders_list</find>
+      <find>.main-sliders_list</find>
+      <find>.slider2</find>
+      <find>.system-item-text-wrap</find>
+      <find>@media(max-width: 768px){</find>
+      <find>sys</find>
+      <find>main-input-time</find>
+      <find>systems</find>
+      <find>.form-input</find>
+      <find>btn</find>
+      <find>.btn</find>
+      <find>телефон</find>
+      <find>cub</find>
+      <find>main-form</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/scss/_fonts.scss" />
+        <option value="$PROJECT_DIR$/../docs/demos/basic.html" />
+        <option value="$PROJECT_DIR$/app/scss/main.scss" />
+        <option value="$PROJECT_DIR$/../lightslider-master/demo/index.html" />
+        <option value="$PROJECT_DIR$/app/index2.html" />
+        <option value="$PROJECT_DIR$/app/js/common.js" />
+        <option value="$PROJECT_DIR$/app/scss/_style.scss" />
+        <option value="$PROJECT_DIR$/mail.php" />
+        <option value="$PROJECT_DIR$/app/index.pug" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+        <tasks>
+          <GulpTaskState>
+            <task-name>sass</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>pug</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>browser-sync</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>scripts</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="sass" />
+            </dependencies>
+            <task-name>css-libs</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="browser-sync" />
+              <dependency value="css-libs" />
+              <dependency value="scripts" />
+            </dependencies>
+            <task-name>watch</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>clean</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>img</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="clean" />
+              <dependency value="img" />
+              <dependency value="pug" />
+              <dependency value="sass" />
+              <dependency value="scripts" />
+            </dependencies>
+            <task-name>build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>clear</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="watch" />
+            </dependencies>
+            <task-name>default</task-name>
+          </GulpTaskState>
+        </tasks>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/app/libs/magnific-popup/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="267" />
+    <option name="y" value="89" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="teplo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teplo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teplo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teplo" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teplo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teplo" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teplo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teplo" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teplo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teplo" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gulp.js.build">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration name="build" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>build</task>
+      </tasks>
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration name="pug" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>pug</task>
+      </tasks>
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration name="watch" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>watch</task>
+      </tasks>
+      <arguments />
+      <envs />
+    </configuration>
+    <list>
+      <item itemvalue="Gulp.js.build" />
+      <item itemvalue="Gulp.js.watch" />
+      <item itemvalue="Gulp.js.pug" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gulp.js.watch" />
+        <item itemvalue="Gulp.js.pug" />
+        <item itemvalue="Gulp.js.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17eec43f-0602-438a-9509-f4e2d7fe74b7" name="Default" comment="" />
+      <created>1532621646936</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532621646936</updated>
+      <workItem from="1532621648377" duration="13074000" />
+      <workItem from="1532760651473" duration="251000" />
+      <workItem from="1532761759410" duration="10456000" />
+      <workItem from="1532775965531" duration="28291000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="52072000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Gulp" order="2" sideWeight="0.24860336" side_tool="true" visible="true" weight="0.11485775" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75139666" visible="true" weight="0.11485775" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20708749" />
+      <window_info id="npm" order="4" side_tool="true" />
+      <window_info id="Structure" order="1" sideWeight="0.44832402" side_tool="true" weight="0.11485775" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.25027686" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../docs/demos/basic.html</url>
+          <line>63</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8184">
+          <caret line="372" selection-start-line="372" selection-end-line="372" />
+          <folding>
+            <element signature="n#section#1;n#body#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#5;n#body#0;n#!!top" />
+            <element signature="n#div#0;n#img#0;n#li#1;n#ul#0;n#body#0;n#!!top" />
+            <element signature="n#section#8;n#body#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16214">
+          <caret line="737" lean-forward="true" selection-start-line="737" selection-end-line="737" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3410">
+          <caret line="155" column="18" lean-forward="true" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="18" />
+          <folding>
+            <element signature="n#section#1;n#body#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#5;n#body#0;n#!!top" />
+            <element signature="n#div#0;n#img#0;n#li#1;n#ul#0;n#body#0;n#!!top" />
+            <element signature="n#section#8;n#body#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6292">
+          <caret line="286" column="17" selection-start-line="286" selection-start-column="17" selection-end-line="286" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6292">
+          <caret line="286" column="17" selection-start-line="286" selection-start-column="17" selection-end-line="286" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/node-sass/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="290" column="25" selection-start-line="290" selection-start-column="25" selection-end-line="290" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" selection-start-line="39" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/structural.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/libs.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../docs/demos/basic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/browser-sync/dist/default-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="499" column="8" selection-start-line="499" selection-start-column="8" selection-end-line="499" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lightslider-master/demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/lightslider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="12" selection-start-line="12" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Portfolio/devopix2/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="136" selection-start-line="136" selection-end-line="145" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Portfolio/devopix2/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="1294" column="14" selection-start-line="1294" selection-start-column="14" selection-end-line="1294" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="515" column="40" selection-start-line="515" selection-start-column="35" selection-end-line="515" selection-end-column="40" />
+          <folding>
+            <element signature="n#section#1;n#body#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#5;n#body#0;n#!!top" />
+            <element signature="n#div#0;n#img#0;n#li#1;n#ul#0;n#body#0;n#!!top" />
+            <element signature="n#section#8;n#body#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
